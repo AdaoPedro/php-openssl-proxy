@@ -145,7 +145,7 @@
      */
     function decryptPrivateKey(
         OpenSSLAsymmetricKey|string $privateKey, string $passPhrase
-    ): OpenSSLAsymmetricKey|null {
+    ): OpenSSLAsymmetricKey|string|null {
         //Alias: openssl_get_privatekey()
         $result = \openssl_pkey_get_private($privateKey,$passPhrase, );
 

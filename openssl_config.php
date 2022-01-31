@@ -35,7 +35,7 @@
         // ],
         
         #Should an exported key (with passphrase) be encrypted?
-        "encrypt_key" => true,
+        "encrypt_key" => false,
 
         #Should an exported key (with passphrase) be encrypted?
         "encrypt_key_passphrase" => "12345",

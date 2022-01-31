@@ -64,7 +64,7 @@ try {
     $certificate->save();
 } catch(\Exception $ex) {
     echo $ex->getMessage() . PHP_EOL;
-    }
+}
 ```
 
 ### Exporting a certificate as a string
@@ -92,6 +92,10 @@ var_dump(
 //$certificate => an instance of SS or CAS Certificate
 var_dump(
     $certificate->getPrivateKey(),
+);
+
+var_dump(
+    $certificate->getPrivateKeyDecrypted() //in case we're working with encrypt_key
 );
 ```
 
