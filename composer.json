@@ -4,6 +4,7 @@
     "keywords": ["https", "rsa", "x509", "openssl", "ssl", "certificate", "ECDSA", "csr", "php-openssl-proxy"],
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Adão Pedro",
