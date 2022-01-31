@@ -23,5 +23,6 @@
             "helpers_include.php",
             "src/OpenSSL.php"
         ]
-    }
+    },
+    "minimum-stability": "dev"
 }
