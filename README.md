@@ -19,7 +19,7 @@ ext-openssl.
 
 ## Installation
 ```bash
-composer require adaopedro/php-openssl-proxy
+composer require adaopedro/php-openssl-proxy @dev
 ```
 
 ## Example Usage
