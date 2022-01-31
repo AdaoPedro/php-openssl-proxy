@@ -10,7 +10,6 @@
             "email": "adao.pedro16@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "php": "^8.0",
         "ext-openssl": "*"
