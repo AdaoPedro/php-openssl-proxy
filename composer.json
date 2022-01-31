@@ -1,0 +1,28 @@
+{
+    "name": "adaopedro/php-openssl-proxy",
+    "description": "A PHP wrapper around the OpenSSL extension that provides a user-friendly interface for dealing with OpenSSL",
+    "keywords": ["https", "rsa", "x509", "openssl", "ssl", "certificate", "ECDSA", "csr", "php-openssl-proxy"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adão Pedro",
+            "email": "adao.pedro16@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": "^8.0",
+        "ext-openssl": "*"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "AdaoPedro\\OpenSSLProxy\\": "src/"
+        },
+        "files": [
+            "helpers_include.php",
+            "src/OpenSSL.php"
+        ]
+    }
+}
